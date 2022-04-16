@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+@font-face {
+    font-family: 'ian';
+    src: url('../webfonts/deliusswashcaps-regular-webfont.woff2') format('woff2'),
+         url('../webfonts/deliusswashcaps-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+
+
+@media(max-width:480px)
+{
+
+
+	.page-heading
+{
+	color:magenta;
+	font-family: 'ian';
+}
+
+	
+}

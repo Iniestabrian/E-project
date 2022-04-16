@@ -1,0 +1,189 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>ADSE2101-Home</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<link href="../css/main.css" rel="stylesheet" type="text/css">
+<link href="../css/mobile.css" rel="stylesheet" type="text/css">
+<link href="../css/fontawesome-free-5.15.3-web/css/all.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header>
+      <a href="index.html"><p id="logo">Festi <span>Vals</span> </p></a> 
+
+     
+
+      <div class="container">
+
+        
+
+        
+    
+        <nav>
+    
+          <ul>
+            <li class="menu active"> <i class="fas fa-home"></i><a href="index.html">Home</a></li>
+            <li class="menu"><a href="about.html">About us</a></li>
+            <li class="menu"><a href="Gallary.html">Gallary</a></li>
+            <li class="menu"><a href="queries.html">Queries</a></li>
+            
+    
+    
+          </ul>
+        </nav>
+
+      </div>
+        
+      </header>
+
+      
+        
+        <section id="showcase">
+
+     
+          <div class="container">
+            
+
+           
+            
+      
+
+              <ul class="social">
+
+              
+                <li> <a href="https://www.instagram.com/iniestabrian/" target="blank"><i class="fab fa-instagram"></i></a> </li>
+                 <li> <a href="https://www.facebook.com/profile.php?id=100009299810495" target="blank"><i class="fab fa-facebook"></i></a> </li>
+                 <li> <a href="https://twitter.com/Iniestabrayo" target="blank"><i class="fab fa-twitter" target="blank"></i></a> </li>
+                 <li> <a href="https://www.youtube.com/channel/UC38fMb_wocxG2rx7NaBNckg/featured" target="blank"><i class="fab fa-youtube"></i></a> </li>
+       
+                 <li> <a href="https://www.linkedin.com/in/brian-bahati-0297b81b6/" target="blank"><i class="fab fa-linkedin"></i></a> </li>
+                 <li><a target="blank" href="tel:+254 700245032"><i class="fas fa-phone-square"><span style="position: absolute;margin-left:3px;font-size: 10px;color: black;margin-top: 1px;">+254700245032</span></i> 
+                 </a>
+                 </li>	
+                
+
+       
+                
+       
+         
+             </ul>
+          
+          
+            
+
+
+
+          </div>
+          
+          
+        </section>
+      
+      
+        <div>
+          <div class="container grid">
+            <aside id="list">
+              <ul>
+                <h1>Religious Festivals</h1>
+                <li><a href="christians.html">Chriastian Fesivals</a></li>
+                <li><a href="muslim.html">Islamic Fesivals</a></li>
+                
+                <li><a href="hindu.html">Hindu  Fesivals</a></li>
+                <h1>Music Festivals</h1>
+                <li><a href="Music.html">Coachella</a></li>
+                <li><a href="Music.html">Summerfest</a></li>
+                <h1>National Festivals</h1>
+                <li><a href="KE.html">Kenya</a></li>
+                <li><a href="US.html">United States</a></li>
+                <li><a href="SA.html">South Africa</a></li>
+                <li><a href="Canada.html">Canada</a></li>
+              </ul>
+            </aside>
+    
+    
+    
+            <div class="main-content">
+         
+    
+              <section style=" height: 100%;" class="home-sec">
+
+                <h1>Festivals.com</h1>
+
+              </section>
+      
+          </div>
+          </div>
+
+        </div>
+
+        <div id="map"  style="width: 100%; height: 20em;">
+
+        </div>
+      
+  
+
+      <footer>
+        <div class="footer">
+          <div>
+            <small>
+
+              <p style="margin-top: 3em; " >
+                all rights reserved. Terms and conditions apply<br> copyright &copy; 2021-<script>
+                  document.write("<span>"+ new Date().getFullYear()+"</span>");
+                  
+                </script>
+                  
+    
+                 
+                  
+                  
+
+              </p>
+              
+              </small>
+
+              
+        
+          </div>
+  
+          
+        </div>
+       
+
+        
+        </footer>
+
+
+
+       
+
+
+
+        <script>
+          function initMap()
+                     {
+                       var location = {lat: -1.292066,lng: 36.821945};
+                       var map = new google.maps.Map(document.getElementById("map"),{
+                         zoom:4,
+                         center: location
+                       });
+
+                       var marker = new google.maps.Marker({
+                         position:location,
+                         map: map
+                       });
+                     }
+       </script>
+              
+                     <script
+                      async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA-VoLbrCYULdADVEGYsR_lJ9I_u0URexw&callback=initMap">
+                       
+                     </script>
+
+</body>
+</html>

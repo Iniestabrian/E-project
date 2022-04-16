@@ -1,0 +1,391 @@
+
+
+
+
+ /*body*/ 
+
+ *
+ {
+     margin:0;
+     padding: 0;
+ }
+ 
+ 
+ body
+{
+margin: 0;
+padding: 0;
+text-align: justify;
+color:#35424a;
+
+
+
+background-repeat: no-repeat;
+background-position: center ;
+
+
+
+animation-name: body;
+animation-duration: 20s;
+animation-iteration-count: infinite;
+animation-fill-mode: forwards;
+
+
+}
+
+p{
+    font-family: 'ian';
+
+    font-size: larger;
+}
+
+
+.container
+{
+    width: 100%;
+    height: 100%;
+    margin:auto;
+    overflow: hidden;
+    
+    
+}
+
+.main-content{
+    background-color:#1DA1F2;
+    opacity: 70%;
+    color: #ffffff;
+    
+    width: 88%;
+}
+.grid
+{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#list
+{
+    
+    width: 10%;
+    
+    border: solid 2px #1DA1F2;
+    padding: 5px;
+    margin: 3px;
+   background-color: lightcyan;
+    
+}
+
+#list ul li {
+    list-style-type:none;
+    margin-top: 3em;
+
+}
+
+#list a
+{
+    text-decoration: none;
+    color:blue;
+
+}
+
+#list h1
+{
+   color: #35424a;
+   font-size: large;
+   margin-top: 2em;
+  
+
+}
+
+
+
+
+
+
+/*Nav bar*/
+header
+{
+    background-color:#1DA1F2;
+    border-bottom: #e8491d 2px solid;
+    margin: auto;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+
+
+
+nav
+{
+    width: 100%;
+    height: 6em;
+    /*background-color:#35424a;*/
+}
+
+nav ul
+{
+    float: right;
+    margin-top: 2em;
+
+
+}
+nav ul li
+{
+    display: inline;
+    list-style-type:none;
+    margin-right: 4em;
+    
+}
+
+nav a
+{
+    
+    text-decoration: none;
+    height: 4px;
+    width: fit-content;
+    color: lightcyan;
+    margin-left: 3px;
+    
+}
+
+nav a:hover
+{
+    color:#cccccc;
+    font-style: italic;
+    
+}
+.active a
+{
+    color: #e8491d;
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+
+
+#logo{
+    font-weight:800;
+    font-size: large;
+    margin-left: 2em;
+    float: left;
+    top: 5px;
+    color:#35424a;
+
+}
+
+#logo span
+{
+    color: #e8491d;
+}
+
+
+
+
+#showcase{
+    background-color: lightcyan;
+    height: 6em;
+    
+    
+   
+}
+
+#showcase .container
+{
+    display: flex;
+   flex-direction:row;
+   justify-content: center;
+
+}
+/*contact us section*/
+.social 
+{
+    margin-left:1em;
+}
+.social li{
+   
+    list-style: none;
+    margin-right: 7em;
+   
+   display:inline ;
+  
+   
+}
+.social h1
+{
+    margin-left: 30em;
+    margin-right: auto;
+}
+
+.social li i{
+    transform: scale(3);
+    margin-top: 3em;
+    
+    
+}
+.social li i:hover{
+    
+    transition: 0.70s;
+   transform: scale(2);
+   transition-delay: 0.10s;
+
+}
+
+
+.home-sec
+{
+    background-image: url(../gallery/canada6\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.main-content section h1
+{
+    font-size: 6em;
+    margin-left: 23%;
+    position: absolute;
+    margin-top: 3em;
+    color: #e8491d;
+
+}
+
+
+
+/*about us */
+
+
+
+.about
+{
+    display: flex;
+    flex-direction: row;
+    color: black;
+}
+.about .d1
+{
+width:40%;
+}
+.about .abtimg
+
+{
+    width: 40%;
+}
+
+.abtimg img
+
+{
+    display: flex;
+}
+
+.abtimg img
+{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    margin-top: 5em;
+    margin-left: 3em;
+
+
+}
+
+/*queries page form*/
+.sidebar
+{
+   
+    height: 100%;
+    display: flex;
+    justify-content: center;
+   
+}
+    
+
+.sidebar .dark 
+{
+    width: 80%;
+    margin-top: 3em;
+}
+.sidebar .dark form input,button
+{
+
+    height: 3em;
+     width: 90%;
+    
+
+}
+.sidebar .dark form textarea
+{
+    width:90% ;
+    
+}
+
+/*footer section*/
+
+footer
+{
+   background-color: #1DA1F2; 
+}
+
+.footer
+{
+
+  background-color: #1DA1F2;
+
+  height: 6em;
+  display: flex;
+  justify-content: center;
+  
+
+  
+}
+.footer div
+{
+    margin-left: 2em;
+    width: 30%;
+  
+   
+}
+
+
+.fa-linkedin{
+    color:#0077B5;
+}
+.fa-facebook{
+   color: #3b5998 ;
+}
+.fa-instagram{
+
+    color: purple;
+    /*background: -webkit-radial-gradient(33% 100% circle,#fed373 4%,#f15245 30%,#d92e7f 62%,#9b6b79 85%,#515ecf);
+    background: -webkit-radial-gradient(circle 33% 100%,#fed373 4%,#f15245 30%,#d92e7f 62%,#9b6b79 85%,#515ecf);
+    -webkit-background-clip: unset;
+    -webkit-text-fill-color:transparen;*/
+}
+
+.fa-github{
+    color: black;
+}
+.fa-phone-square{
+    color:green;
+}
+
+
+.fa-twitter{
+    color:#1DA1F2;
+}
+.fa-youtube{
+    color: red;
+}
+
+.fa-home{
+    color: aliceblue;
+}
+
+
+
+
+
+
+
